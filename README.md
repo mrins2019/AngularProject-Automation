@@ -1,4 +1,4 @@
-#############AngularProject-Automation#############
+#############AngularProject-Automation (It uses java)#############
 
 1. Download the .zip file of the project from the location
 2. Unzip the zipped file and save it in a local directory
