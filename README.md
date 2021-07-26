@@ -1,5 +1,5 @@
 #############AngularProject-Automation#############
-Steps:
+
 1. Download the .zip file of the project from the location
 2. Unzip the zipped file and save it in a local directory
 3. Open eclipse IDE workspace and import the unzipped project as an existing project into workspace and provide the path of the unzipped java project
