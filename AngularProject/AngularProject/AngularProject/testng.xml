@@ -1,0 +1,64 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Angular Application Project" verbose="1">
+
+	<test name="Project Angular Application Tests" preserve-order="false">
+	
+		<classes>
+			<!--Scenario 1-->
+			<class name="com.projectAngularAppTests.ValidateAddNonImportantTask">
+				<methods>
+					<include name="validateAddNonImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 2-->
+			<class name="com.projectAngularAppTests.ValidateAddImportantTask">
+				<methods>
+					<include name="validateAddImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 3-->
+			<class name="com.projectAngularAppTests.ValidateRemoveImportantTask">
+				<methods>
+					<include name="validateRemoveImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 4-->
+			<class name="com.projectAngularAppTests.ValidateRemoveNonImportantTask">
+				<methods>
+					<include name="validateRemoveNonImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 5-->
+			<class
+				name="com.projectAngularAppTests.ValidateAddImportantAndNonImportantTask">
+				<methods>
+					<include name="validateAddImportantAndNonImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 6-->
+			<class
+				name="com.projectAngularAppTests.ValidateRemoveImportantAndNonImportantTask">
+				<methods>
+					<include name="validateRemoveImportantAndNonImportantTaskTest" />
+				</methods>
+			</class>
+
+			<!--Scenario 7-->
+			<class
+				name="com.projectAngularAppTests.ValidateAddImportantAndNonImportantWithDueDateTask">
+				<methods>
+					<include name="validateAddImportantAndNonImportantTaskWithDueDateTest" />
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+</suite>
+
